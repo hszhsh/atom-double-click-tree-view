@@ -1,13 +1,13 @@
 {
-  "name": "double-click-tree-view",
+  "name": "tree-view-double-click",
   "main": "./lib/double-click-tree-view",
   "version": "1.1.0",
-  "description": "Tree-view responds only to double clicks for all operations",
+  "description": "Tree-view responds only to double clicks for all operations. On directories, the arrow next to the directory responds to single clicks.",
   "keywords": [
     "tree-view",
     "ui"
   ],
-  "repository": "https://github.com/mattsfrey/atom-double-click-tree-view",
+  "repository": "https://github.com/hszhsh/atom-double-click-tree-view",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"

@@ -7,7 +7,11 @@ class DoubleClickTreeView
       @treeView.originalEntryClicked = @treeView.entryClicked
 
       @treeView.entryClicked = (e) ->
-        false
+        entry = e.currentTarget
+        if entry.constructor.name == 'tree-view-directory' && e.offsetX <= 10
+          isRecursive = e.altKey or false
+          entry.toggleExpansion(isRecursive)
+          e.stopPropagation();
 
       @treeView.on 'dblclick', '.entry', (e) =>
         @treeView.openSelectedEntry.call(@treeView)
