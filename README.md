@@ -7,10 +7,11 @@ This package forces the user to double click on a file to open it, or on a direc
 
 To install:
 
-```apm install double-click-tree-view```
+```apm install dbclick-tree-view```
 
 
 
-Big thanks to h2so5 for writing the original chary-tree-view that this has been forked from. 
+Big thanks to mattsfrey and h2so5 for writing the original projects that this has been forked from. 
 
 https://github.com/h2so5/atom-chary-tree-view
+https://github.com/mattsfrey/atom-double-click-tree-view
